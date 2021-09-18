@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import s from "./ImageGalleryItem.module.css";
 
 const ImageGalleryItem = ({ hits, onClick }) => {
-  console.log(hits);
   return hits.map((hit) => (
     <li key={hit.id} className={s.ImageGalleryItem}>
       <img
